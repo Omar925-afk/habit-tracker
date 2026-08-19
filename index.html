@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Task Manager</title>
+    <meta
+      name="description"
+      content="An intelligent task management and scheduling application. Organize your work with priority-based scheduling and smart recommendations."
+    />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' fill='%232563eb'>⚡</text></svg>" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+      <div class="container nav-wrap">
+        <div class="brand" aria-label="Velvet Bean Café logo">
+          <span class="brand-mark">V</span>
+          <span>Velvet Bean</span>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#about">About</a>
+          <a href="#visit">Visit</a>
+        </nav>
+        <a class="button button-small" href="#visit">Book a table</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Slow coffee, good company</p>
+            <h1>Crafted brews for your favorite moments.</h1>
+            <p class="lead">
+              From silky cappuccinos to buttery croissants, we create a cozy café
+              experience designed for mornings worth savoring.
+            </p>
+            <div class="cta-row">
+              <a class="button" href="#menu">Explore menu</a>
+              <a class="button button-secondary" href="#about">Our story</a>
+            </div>
+            <ul class="hero-meta" aria-label="Cafe details">
+              <li>Freshly roasted beans</li>
+              <li>Locally baked treats</li>
+              <li>Open daily 7am–9pm</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Coffee and pastry display">
+            <div class="card-stack card-stack-one">
+              <div class="mini-card">
+                <span class="mini-icon">☕</span>
+                <div>
+                  <strong>Signature</strong>
+                  <small>Honey Cinnamon Latte</small>
+                </div>
+              </div>
+            </div>
+            <div class="cup-illustration">
+              <div class="cup">
+                <div class="coffee-surface"></div>
+              </div>
+              <div class="steam steam-one"></div>
+              <div class="steam steam-two"></div>
+              <div class="steam steam-three"></div>
+            </div>
+            <div class="card-stack card-stack-two">
+              <div class="mini-card alt">
+                <span class="mini-icon">🥐</span>
+                <div>
+                  <strong>Fresh</strong>
+                  <small>Almond croissant</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats">
+        <div class="container stats-grid">
+          <div>
+            <strong>12+</strong>
+            <span>house blend roasts</span>
+          </div>
+          <div>
+            <strong>4.9/5</strong>
+            <span>community rating</span>
+          </div>
+          <div>
+            <strong>7am</strong>
+            <span>morning start</span>
+          </div>
+          <div>
+            <strong>1k+</strong>
+            <span>happy regulars</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu section" id="menu">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Our favorites</p>
+            <h2>Menu that feels like home.</h2>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div class="dish-visual visual-one"></div>
+              <div class="dish-copy">
+                <h3>Velvet Latte</h3>
+                <p>Espresso, oat milk, vanilla bean foam, and a light caramel finish.</p>
+                <div class="menu-meta"><span>$6</span><button>Order</button></div>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="dish-visual visual-two"></div>
+              <div class="dish-copy">
+                <h3>Sunrise Toast</h3>
+                <p>Sourdough with whipped ricotta, peach jam, and toasted pistachios.</p>
+                <div class="menu-meta"><span>$8</span><button>Order</button></div>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <div class="dish-visual visual-three"></div>
+              <div class="dish-copy">
+                <h3>Berry Matcha</h3>
+                <p>Earthy matcha blended with berry notes and a creamy coconut finish.</p>
+                <div class="menu-meta"><span>$7</span><button>Order</button></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container about-grid">
+          <div class="about-image">
+            <div class="image-frame"></div>
+          </div>
+
+          <div class="about-copy">
+            <p class="eyebrow">Why guests return</p>
+            <h2>Designed for slow moments and warm conversation.</h2>
+            <p>
+              At Velvet Bean, every cup is brewed with care and every space is made to
+              feel welcoming. Our café blends artisan coffee, homemade pastries, and a
+              neighborhood vibe you can settle into.
+            </p>
+            <ul class="feature-list">
+              <li>Ethically sourced beans and seasonal ingredients</li>
+              <li>Comfortable seating for work, catch-ups, and quiet mornings</li>
+              <li>Friendly baristas and thoughtful, handcrafted drinks</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Inside the café</p>
+            <h2>A space that invites you to linger.</h2>
+          </div>
+
+          <div class="gallery-grid">
+            <div class="gallery-item tall"></div>
+            <div class="gallery-item medium"></div>
+            <div class="gallery-item small"></div>
+            <div class="gallery-item wide"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonial section">
+        <div class="container testimonial-box">
+          <p class="eyebrow">Guest notes</p>
+          <blockquote>
+            “The coffee is exceptional, the pastries are fresh, and the atmosphere feels
+            like a tiny escape from the city.”
+          </blockquote>
+          <p class="author">— Maya R., weekly regular</p>
+        </div>
+      </section>
+
+      <section class="visit section" id="visit">
+        <div class="container visit-grid">
+          <div class="visit-copy">
+            <p class="eyebrow">Visit us</p>
+            <h2>Your favorite café is waiting.</h2>
+            <p>15 Willow Street, Brookside<br />Open daily: 7:00 AM – 9:00 PM</p>
+            <a class="button" href="tel:+15550192">Call for reservations</a>
+          </div>
+
+          <div class="visit-card">
+            <h3>Reserve a table</h3>
+            <form>
+              <label>
+                Name
+                <input type="text" placeholder="Your name" />
+              </label>
+              <label>
+                Date
+                <input type="date" />
+              </label>
+              <label>
+                Guests
+                <select>
+                  <option>2 Guests</option>
+                  <option>4 Guests</option>
+                  <option>6 Guests</option>
+                </select>
+              </label>
+              <button class="button" type="submit">Confirm booking</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Velvet Bean Café</p>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#menu">Menu</a>
+          <a href="#visit">Visit</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
