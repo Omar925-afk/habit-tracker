@@ -1,7 +1,7 @@
 import { TaskPrioritizer } from './TaskPrioritizer';
 import { SchedulingEngine } from './SchedulingEngine';
 import { TaskFactory } from './TaskFactory';
-import { DateUtils } from './dateUtils';
+import { DateUtils } from '../utils/dateUtils';
 import { UserPreferences, Task } from '../types';
 
 /**

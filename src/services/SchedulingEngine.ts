@@ -1,5 +1,5 @@
 import { Task, DailySchedule, ScheduleBlock, ScheduleConflict, UserPreferences } from '../types';
-import { DateUtils, TimeUtils } from './dateUtils';
+import { DateUtils, TimeUtils } from '../utils/dateUtils';
 import { TaskPrioritizer } from './TaskPrioritizer';
 
 /**

@@ -1,5 +1,5 @@
 import { Task, TaskScore, TaskPriority } from '../types';
-import { DateUtils, TimeUtils } from './dateUtils';
+import { DateUtils, TimeUtils } from '../utils/dateUtils';
 
 /**
  * Intelligent task prioritization engine.

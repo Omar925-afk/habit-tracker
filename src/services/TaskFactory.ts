@@ -1,5 +1,5 @@
 import { Task, RecurrenceType } from '../types';
-import { DateUtils } from './dateUtils';
+import { DateUtils } from '../utils/dateUtils';
 
 /**
  * Factory for creating new tasks with sensible defaults
